@@ -183,7 +183,7 @@ npm install --save-dev @types/react @types/react-dom
 
 ```bash
 # In backend folder
-echo '{}' > .env
+echo > .env
 ```
 
 **🔍 About the command:**
@@ -305,8 +305,6 @@ echo '{}' > settings.json
 - **Why:** `node_modules` has thousands of files we don't edit
 - **Performance:** VSCode runs faster without indexing these files
 
-
-
 ## 🚦 **Development Scripts**
 
 ### **Root package.json:**
@@ -317,6 +315,7 @@ Create `package.json` at root to manage both projects:
 # At project root
 echo '{}' > package.json
 ```
+
 ### **Add scripts to package.json:**
 
 ```json
